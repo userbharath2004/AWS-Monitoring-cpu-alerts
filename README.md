@@ -24,6 +24,7 @@ Instead of manual configuration, I defined the entire stack in Terraform. This e
 
 ## 🧪 Validation & Proof of Work
 To test the reliability of the system, I performed a stress test on the instance.
+![Stress test](./images/stress-test-cpu.png)
 
 ### Step 1: Baseline State
 Initially, the system was in a healthy state with minimal CPU usage.
@@ -46,3 +47,4 @@ Within minutes of the breach, the SNS service successfully delivered a high-prio
 * **Troubleshooting:** Debugging metric reporting and SNS subscription status.
 
 ---
+
