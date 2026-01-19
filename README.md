@@ -3,10 +3,10 @@
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
-## 🎯 Project Overview
+## 🗺️ Project Overview
 In a production cloud environment, high CPU utilization can lead to application latency or total system failure. I developed an automated **Monitoring & Alerting System** that uses Infrastructure as Code (IaC) to ensure administrators are notified immediately when system health is at risk.
 
-## 🏗️ Technical Architecture
+## ☁️ Technical Architecture
 I used **Terraform** to provision a modular architecture consisting of:
 * **Amazon EC2:** Hosting the core workload.
 * **CloudWatch Alarms:** Monitoring `CPUUtilization` with a 70% threshold.
@@ -14,7 +14,7 @@ I used **Terraform** to provision a modular architecture consisting of:
 
 
 
-## 🛠️ Infrastructure as Code
+## ⚙️ Infrastructure as Code
 Instead of manual configuration, I defined the entire stack in Terraform. This ensures the environment is reproducible and version-controlled.
 
 ![Terraform Logic](./images/terraform-code.png)
@@ -22,7 +22,7 @@ Instead of manual configuration, I defined the entire stack in Terraform. This e
 
 ---
 
-## 🧪 Validation & Proof of Work
+## ✅ Validation & Proof of Work
 To test the reliability of the system, I performed a stress test on the instance.
 ![Stress test](./images/stress-test-cpu.png)
 
@@ -47,4 +47,5 @@ Within minutes of the breach, the SNS service successfully delivered a high-prio
 * **Troubleshooting:** Debugging metric reporting and SNS subscription status.
 
 ---
+
 
