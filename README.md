@@ -1,4 +1,4 @@
-# AWS Monitoring & Audit System (IaC)
+# AWS EC2 CPU Monitoring & Alerting using Terraform(IaC)
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
@@ -47,5 +47,6 @@ Within minutes of the breach, the SNS service successfully delivered a high-prio
 * **Troubleshooting:** Debugging metric reporting and SNS subscription status.
 
 ---
+
 
 
