@@ -7,7 +7,7 @@
 In a production cloud environment, high CPU utilization can lead to application latency or total system failure. I developed an automated **Monitoring & Alerting System** that uses Infrastructure as Code (IaC) to ensure administrators are notified immediately when system health is at risk.
 
 ## ☁️ Technical Architecture
-![Architecture](./images/architecture-monitoring.png)
+![Architecture](./images/monitoring-architecture.png)
 
 I used **Terraform** to provision a modular architecture consisting of:
 * **Amazon EC2:** Hosting the core workload.
@@ -49,6 +49,7 @@ Within minutes of the breach, the SNS service successfully delivered a high-prio
 * **Troubleshooting:** Debugging metric reporting and SNS subscription status.
 
 ---
+
 
 
 
