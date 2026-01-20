@@ -8,6 +8,7 @@ In a production cloud environment, high CPU utilization can lead to application 
 
 ## ☁️ Technical Architecture
 ![Architecture](./images/architecture-monitoring.png)
+
 I used **Terraform** to provision a modular architecture consisting of:
 * **Amazon EC2:** Hosting the core workload.
 * **CloudWatch Alarms:** Monitoring `CPUUtilization` with a 70% threshold.
@@ -48,6 +49,7 @@ Within minutes of the breach, the SNS service successfully delivered a high-prio
 * **Troubleshooting:** Debugging metric reporting and SNS subscription status.
 
 ---
+
 
 
 
